@@ -11,7 +11,10 @@ namespace Application
         {
             _employeeRepository = employeeRepository;
         }
-
+        /// <summary>
+        /// 套用身分別
+        /// </summary>
+        /// <param name="userId"></param>
         public void ApplySettings(string userId)
         {
             // Get a Employee
